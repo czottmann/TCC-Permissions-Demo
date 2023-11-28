@@ -1,5 +1,4 @@
 import ApplicationServices
-import Foundation
 
 func checkAccessibilityPermissions() -> Bool {
   let options = [kAXTrustedCheckOptionPrompt.takeUnretainedValue() as String: true]
