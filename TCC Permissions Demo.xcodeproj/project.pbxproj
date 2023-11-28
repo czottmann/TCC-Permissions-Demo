@@ -11,6 +11,7 @@
 		DC279CB02B160C7900CBACA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC279CAF2B160C7900CBACA8 /* ContentView.swift */; };
 		DC279CB22B160C7A00CBACA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC279CB12B160C7A00CBACA8 /* Assets.xcassets */; };
 		DC279CB52B160C7A00CBACA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC279CB42B160C7A00CBACA8 /* Preview Assets.xcassets */; };
+		DC279CBD2B160D1F00CBACA8 /* PermissionsCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC279CBC2B160D1F00CBACA8 /* PermissionsCheck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		DC279CB12B160C7A00CBACA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC279CB42B160C7A00CBACA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC279CB62B160C7A00CBACA8 /* TCC_Permissions_Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TCC_Permissions_Demo.entitlements; sourceTree = "<group>"; };
+		DC279CBC2B160D1F00CBACA8 /* PermissionsCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsCheck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +54,11 @@
 		DC279CAC2B160C7900CBACA8 /* TCC Permissions Demo */ = {
 			isa = PBXGroup;
 			children = (
-				DC279CAD2B160C7900CBACA8 /* TCC_Permissions_DemoApp.swift */,
-				DC279CAF2B160C7900CBACA8 /* ContentView.swift */,
-				DC279CB12B160C7A00CBACA8 /* Assets.xcassets */,
 				DC279CB62B160C7A00CBACA8 /* TCC_Permissions_Demo.entitlements */,
+				DC279CAF2B160C7900CBACA8 /* ContentView.swift */,
+				DC279CBC2B160D1F00CBACA8 /* PermissionsCheck.swift */,
+				DC279CAD2B160C7900CBACA8 /* TCC_Permissions_DemoApp.swift */,
+				DC279CB12B160C7A00CBACA8 /* Assets.xcassets */,
 				DC279CB32B160C7A00CBACA8 /* Preview Content */,
 			);
 			path = "TCC Permissions Demo";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC279CBD2B160D1F00CBACA8 /* PermissionsCheck.swift in Sources */,
 				DC279CB02B160C7900CBACA8 /* ContentView.swift in Sources */,
 				DC279CAE2B160C7900CBACA8 /* TCC_Permissions_DemoApp.swift in Sources */,
 			);
