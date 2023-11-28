@@ -6,7 +6,7 @@ struct ContentView: View {
       Image(systemName: "person.2")
         .imageScale(.large)
         .foregroundColor(.accentColor)
-      Text("`kTCCServiceAccessibility` granted: \(String(describing: checkAccessibilityPermissions()))")
+      Text(checkAccessibilityPermissions())
     }
     .padding()
   }
